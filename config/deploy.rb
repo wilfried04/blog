@@ -2,10 +2,10 @@
 lock "~> 3.14.1"
 
 
-set :application, 'bishop'
-set :repo_url, 'https://github.com/Baroka-wp/blogtest.git' # Edit this to match your repository
+set :application, 'blogtest'
+set :repo_url, 'https://github.com/wilfried04/blog.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/bishop'
+set :deploy_to, '/home/deploy/blogtest'
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
